@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #1a2a80;
+  --color-secondary: #3b38a0;
+  --color-accent: #7a85c1;
+  --color-netural: #b2b0e8;
+  --color-basic: oklch(0.52 0.06 270.54 / 0.65);
+  --color-switch-btn: #3b38a0;
+  --font-rubik: "Rubik", sans-serif;
+  --font-comfortaa: "Comfortaa", sans-serif;
+  --font-orbitron: "Orbitron", sans-serif;
+}
+
+@layer base {
+  .bg-base {
+    @apply bg-gradient-to-b from-[#5c678ca6]/50 to-[#5c678ca6]/100;
+  }
+  .flex-center {
+    @apply flex justify-center items-center;
+  }
+
+  .button-default {
+    @apply transition-all duration-500 border-1 font-bold  p-2 hover:bg-accent hover:rounded-bl-xl hover:rounded-tr-xl whitespace-normal;
+  }
+  .tblr {
+    @apply absolute right-0 left-0 top-0 bottom-0;
+  }
+}
+
+/*
+@layer utilities {
+} */
+
+@layer components {
+  /* Main */
+  .typewriter--mainpage {
+    @apply whitespace-nowrap font-comfortaa font-semibold text-[0.75rem] md:text-[1rem] select-none md:w-120;
+  }
+  .main--elements-style {
+    @apply transition-all duration-500 flex gap-8 flex-col-reverse justify-center items-center md:flex md:flex-row md:gap-6 md:justify-around pt-16;
+  }
+  .main-bg-radius-picture {
+    @apply relative rounded-b-full flex items-center justify-center overflow-hidden size-2/3 md:size-fit my-2 border-b-4 border-black;
+  }
+  .gpt-skillboxes {
+    @apply md:flex md:flex-col md:gap-2 relative rounded-3xl p-6 text-center
+                     bg-gradient-to-br from-gray-900 to-gray-800 
+                     text-white shadow-md cursor-pointer 
+                     hover:shadow-xl hover:shadow-indigo-500/20
+                     hover:bg-gradient-to-br hover:from-gray-800 hover:to-gray-600
+                     transition-all duration-500 ease-in-out whitespace-nowrap md:w-2xs;
+  }
+
+  /* About */
+  .about--div1 {
+    @apply text-xl whitespace-nowrap ml-5;
+  }
+}
