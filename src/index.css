@@ -14,8 +14,12 @@
 }
 
 @layer base {
+  html {
+    @apply scroll-smooth;
+  }
+
   .bg-base {
-    @apply bg-gradient-to-b from-[#5c678ca6]/50 to-[#5c678ca6]/100;
+    /* @apply bg-gradient-to-b from-[#5c678ca6]/50 to-[#5c678ca6]/100; */
   }
   .flex-center {
     @apply flex justify-center items-center;
@@ -46,11 +50,7 @@
   }
   .gpt-skillboxes {
     @apply md:flex md:flex-col md:gap-2 relative rounded-3xl p-6 text-center
-                     bg-gradient-to-br from-gray-900 to-gray-800 
-                     text-white shadow-md cursor-pointer 
-                     hover:shadow-xl hover:shadow-indigo-500/20
-                     hover:bg-gradient-to-br hover:from-gray-800 hover:to-gray-600
-                     transition-all duration-500 ease-in-out whitespace-nowrap md:w-2xs;
+  bg-gradient-to-br from-gray-900 to-gray-800 text-white shadow-md cursor-pointer hover:shadow-xl hover:shadow-indigo-500/20 hover:bg-gradient-to-br hover:from-netural/70 hover:to-primary transition-all duration-500 ease-in-out whitespace-nowrap md:w-2xs;
   }
 
   /* About */

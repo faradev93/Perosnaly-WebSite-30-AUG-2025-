@@ -36,12 +36,14 @@ const Header = () => {
 
           <div>
             <ul className="flex-center gap-8 Electrolize electrolize py-4 md:visible max-md:hidden select-none">
-              <Link to={"/"}>
+              <a href={"#main"}>
                 <li>Home</li>
-              </Link>
-              <Link to={"#about"}>
+              </a>
+
+              <a href="#about">
                 <li>About Me</li>
-              </Link>
+              </a>
+
               <Link to={"/portfolio"}>
                 <li>Portfolio</li>
               </Link>

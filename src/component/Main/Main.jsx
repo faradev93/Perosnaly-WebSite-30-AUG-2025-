@@ -2,10 +2,12 @@ import { color, motion, scale, spring } from "framer-motion";
 import TypeWriter from "./TypeWriter";
 import MainText from "./MainText";
 
-export default function Main() {
+export default function Main({ color }) {
+  const bgcolor = color;
+
   return (
-    <main id="home">
-      <div className="main--elements-style">
+    <main id="main">
+      <div className={`main--elements-style ${bgcolor}`}>
         <div className="flex-center">
           <div className="main-bg-radius-picture animate__animated animate__rotateInDownLeft">
             <motion.img

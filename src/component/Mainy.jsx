@@ -1,5 +1,5 @@
 const Mainy = ({ children }) => {
-  return <div className="font-rubik bg-netural">{children}</div>;
+  return <div className="font-rubik">{children}</div>;
 };
 
 export default Mainy;

@@ -8,7 +8,7 @@ export default function AboutPart2({ bgcolor, titleImage }) {
   const [active, setActive] = useState("scale-155 rotate-60");
 
   return (
-    <div className={`flex-center flex-center md:flex-row ${bgcolor} py-5`}>
+    <div className={`flex-center md:flex-row ${bgcolor} py-5`}>
       {/* part-1 */}
       <motion.div
         className={`bg-transparent py-5 flex md:size-1/3 md:justify-evenly`}
@@ -16,7 +16,7 @@ export default function AboutPart2({ bgcolor, titleImage }) {
         animate={{ rotateY: 0, rotateX: 0, opacity: 1, y: [0, -20, 0] }}
         transition={{ duration: 0.8, delay: 0.5 }}
       >
-        <AboutBoxs text={"Skills"} sizeDiv={"md:w-[537px]"} />
+        <AboutBoxs text={"Skills"}/>
       </motion.div>
 
       {/* Part-2 */}

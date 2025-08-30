@@ -10,7 +10,7 @@ export default function About({ color }) {
 
   return (
     <section
-      className={`flex-center flex-col gap-2 md:gap-5 ${bgcolor} py-5 px-5`}
+      className={`flex flex-col gap-2 md:gap-5 ${bgcolor} py-5 px-5`}
       id="about"
     >
       <AboutPart1 bgcolor={bgcolor} titleImage={"QouteVector"} />
