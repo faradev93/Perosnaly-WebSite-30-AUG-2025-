@@ -40,8 +40,8 @@ export default function AboutPart2({ bgcolor, titleImage }) {
 
       {/* part-3 */}
 
-      <motion.div className="h-fit px-5 font-rubik animate__animated animate__fadeInUp text-black/70 md:border-l-4 md:border-accent/50 ">
-        <div className="grid grid-cols-4 font-comfortaa mx-5 size-fit md:gap-4"></div>
+      <motion.div className="h-fit px-5 font-rubik animate__animated animate__fadeInUp text-black/70">
+        <div className="grid grid-cols-4 font-comfortaa mx-5 size-fit md:gap-4">WEB</div>
       </motion.div>
     </div>
   );

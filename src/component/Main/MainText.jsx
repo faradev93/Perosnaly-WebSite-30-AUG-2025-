@@ -1,4 +1,5 @@
 import { color, motion, scale, spring } from "framer-motion";
+import Connections from "./Connections";
 
 export default function MainText() {
   return (
@@ -13,6 +14,7 @@ export default function MainText() {
         <motion.h1 className="text-3xl font-extrabold md:text-5xl font-rubik">
           Rezakhanlou
         </motion.h1>
+        <Connections/>
       </div>
     </div>
   );

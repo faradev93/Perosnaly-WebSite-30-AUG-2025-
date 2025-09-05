@@ -5,10 +5,10 @@ export const skillDataWeb = [
   { id: 4, skill: "React JS", level: "Advanced" },
   { id: 5, skill: "NextJS", level: "Familiar" },
   { id: 6, skill: "NodeJS", level: "Familiar" },
-  { id: 7, skill: "Google Sheet", level: "Intermediate" },
+  { id: 7, skill: "Google LS", level: "Intermediate" },
   { id: 8, skill: "Design PH&AE", level: "Intermediate" },
   { id: 9, skill: "JQL", level: "Intermediate" },
-  { id: 10, skill: "KosKeshi", level: "Expert" },
+  { id: 10, skill: "DEV", level: "Expert" },
   ,
 ];
 

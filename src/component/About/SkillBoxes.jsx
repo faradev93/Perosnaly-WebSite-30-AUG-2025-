@@ -1,10 +1,13 @@
 import { motion } from "framer-motion";
 import { getLevelPercent, skillDataWeb } from "../../api/data";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function SkillBoxes({ children }) {
   const [scale, setScale] = useState(false);
 
+  useEffect(() => {
+    console.log("scale work");
+  }, [scale]);
   return (
     <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-5 select-none">
       {skillDataWeb.map((item) => (
@@ -14,7 +17,9 @@ export default function SkillBoxes({ children }) {
           transition={{ type: "spring", stiffness: 250 }}
           className={`gpt-skillboxes
                   w-37 md:w-56 p-7 rounded-xl bg-white shadow ${
-                    scale ? "scale-110 shadow-2xs shadow-accent" : "scale-100"
+                    scale
+                      ? "hover:shadow-[55px] hover:shadow-accent"
+                      : "hvoer:shadow-2xs hover:shadow-accent"
                   } `}
         >
           <h2 className="text-lg md:text-xl font-semibold flex-center">

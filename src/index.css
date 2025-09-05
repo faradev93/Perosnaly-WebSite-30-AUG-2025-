@@ -43,7 +43,7 @@
     @apply whitespace-nowrap font-comfortaa font-semibold text-[0.75rem] md:text-[1rem] select-none md:w-120;
   }
   .main--elements-style {
-    @apply transition-all duration-500 flex gap-8 flex-col-reverse justify-center items-center md:flex md:flex-row md:gap-6 md:justify-around pt-16;
+    @apply transition-all duration-500 flex gap-8 flex-col-reverse justify-center items-center md:flex md:flex-row md:gap-6 md:justify-around pt-10;
   }
   .main-bg-radius-picture {
     @apply relative rounded-b-full flex items-center justify-center overflow-hidden size-2/3 md:size-fit my-2 border-b-4 border-black;

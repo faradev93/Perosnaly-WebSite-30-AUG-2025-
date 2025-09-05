@@ -5,18 +5,23 @@ import Main from "./component/Main/Main";
 import About from "./component/About/About";
 import Contact from "./component/Conatct/Contact";
 import { useEffect } from "react";
+import Form from "./component/Form/Form";
 
 export default function App() {
   // useEffect(() => {
   //   const interval = setInterval(() => {
   //     window.location.reload();
   //   }, 8000);
-  //   const timer = setTimeout(() => {
+  //   const timerScroolDown = setTimeout(() => {
   //     window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" });
   //   }, 4000);
+  //     const timerScroolTop = setTimeout(() => {
+  //     window.scrollTo({ top: 0, behavior: "smooth" });
+  //   }, 7500);
   //   return () => {
   //     clearInterval(interval);
-  //     clearTimeout(timer);
+  //     clearTimeout(timerScroolDown);
+  //     clearTimeout(timerScroolTop);
   //   };
   // }, []);
 
@@ -26,7 +31,7 @@ export default function App() {
         <Header />
         <Main color={"bg-netural"}/>
         <About color={"bg-white"} />
-        <Contact color={"bg-rose-400 h-100"} />
+        <Contact color={"bg-netural h-100"} />
       </BrowserRouter>
     </Mainy>
   );
