@@ -31,7 +31,7 @@ export default function App() {
         <Header />
         <Main color={"bg-netural"}/>
         <About color={"bg-white"} />
-        <Contact color={"bg-netural h-100"} />
+        <Contact color={"bg-transparent h-100" } />
       </BrowserRouter>
     </Mainy>
   );

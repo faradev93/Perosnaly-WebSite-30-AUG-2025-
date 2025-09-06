@@ -6,9 +6,9 @@ export const skillDataWeb = [
   { id: 5, skill: "NextJS", level: "Familiar" },
   { id: 6, skill: "NodeJS", level: "Familiar" },
   { id: 7, skill: "Google LS", level: "Intermediate" },
-  { id: 8, skill: "Design PH&AE", level: "Intermediate" },
-  { id: 9, skill: "JQL", level: "Intermediate" },
-  { id: 10, skill: "DEV", level: "Expert" },
+  { id: 8, skill: "Photoshop & AE", level: "Intermediate" },
+  { id: 10, skill: "Jira", level: "Intermediate" },
+  { id: 11, skill: "SQL DataBase", level: "Familiar" },
   ,
 ];
 

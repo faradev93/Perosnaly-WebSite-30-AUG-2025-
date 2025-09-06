@@ -9,7 +9,7 @@ export default function SkillBoxes({ children }) {
     console.log("scale work");
   }, [scale]);
   return (
-    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-5 select-none">
+    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 lg:gap-4 select-none">
       {skillDataWeb.map((item) => (
         <motion.div
           key={item.id}
