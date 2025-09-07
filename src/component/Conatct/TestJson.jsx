@@ -22,7 +22,7 @@ export default function TestJson() {
   console.log(TestJson3);
 
   return (
-    <div className="overflow-x-hidden">
+    <div className="overflow-x-hidden flex flex-col justify-center items-center">
       <div>
         <button
           className="border-2 p-4 hover:bg-gray-600/50 m-4 transition-colors duration-1000"
