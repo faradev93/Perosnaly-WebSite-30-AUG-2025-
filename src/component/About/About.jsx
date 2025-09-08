@@ -10,12 +10,17 @@ export default function About({ color }) {
 
   return (
     <section
-      className={`flex flex-col gap-2 md:gap-5 ${bgcolor} py-5 px-5`}
+      className={`flex-center flex-col gap-2 md:gap-5 ${bgcolor} py-5 px-5`}
       id="about"
     >
       <AboutPart1 bgcolor={bgcolor} titleImage={"QouteVector"} />
-      <AboutPart2 bgcolor={bgcolor} titleImage={"SkillsVector"} />
-      <SkillBoxes/>
+      <AboutPart2
+        bgcolor={bgcolor}
+        titleImage={"SkillsVector"}
+        subject={"Skills"}
+        srcSvg={"https://www.svgrepo.com/show/90790/science.svg"}
+      />
+      <SkillBoxes />
     </section>
   );
 }
