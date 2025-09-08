@@ -70,7 +70,7 @@ export default function Contact({ color }) {
           date={"2024 - 2025"}
           time={"(Part Time)"}
           JobDescription={"Front End Dev"}
-          abilities={["Strong Communication Skills", "Patience and Composure"]}
+          abilities={["React JS", "Tailwind HWork", "Ui/UX "]}
         />
       </motion.div>
     </section>
