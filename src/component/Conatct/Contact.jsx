@@ -12,7 +12,7 @@ export default function Contact({ color }) {
         <AboutPart2
           titleImage={"Experience Vector"}
           subject={"Experience"}
-          srcSvg={"https://www.svgrepo.com/show/533478/building-user.svg"}
+          srcSvg={"https://www.svgrepo.com/show/412382/experience.svg"}
         />
       </motion.div>
       <motion.div

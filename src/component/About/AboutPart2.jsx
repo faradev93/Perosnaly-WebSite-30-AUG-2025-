@@ -22,7 +22,7 @@ export default function AboutPart2({ bgcolor, titleImage,subject,srcSvg }) {
       {/* Part-2 */}
       <motion.div
         className={`animate__animated animate__fadeInUp size-12 md:size-1/12 ml-2 hover:rotate-[-6px] transition-all duration-300 ${
-          active ? "scale-100" : "scale-140 rotate-360"
+          active ? "scale-100 rotate-90" : "scale-140 rotate-360"
         }`}
       >
         <img
