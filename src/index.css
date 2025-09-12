@@ -58,7 +58,7 @@
 
   .contact--card {
     @apply flex justify-center items-center gap-4 py-5 px-6 border-1 transition-all duration-500 hover:ring-4 ring-offset-4 ring-offset-secondary/70 border-secondary select-none rounded-3xl
-    hover:shadow-xs shadow-black/100 hover:rounded-t-xs h-60 w-90 md:h-80 md:w-150;
+    hover:shadow-xs shadow-black/100 hover:rounded-t-xs h-60 w-90 md:h-80 md:w-150 border-2;
   }
 
   /* About */

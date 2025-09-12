@@ -1,4 +1,4 @@
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Header from "./component/Header/Header";
 import Mainy from "./component/Mainy";
 import Main from "./component/Main/Main";
@@ -6,6 +6,7 @@ import About from "./component/About/About";
 import Contact from "./component/Conatct/Contact";
 import { useEffect } from "react";
 import Form from "./component/Form/Form";
+
 
 export default function App() {
   // useEffect(() => {
@@ -29,9 +30,9 @@ export default function App() {
     <Mainy>
       <BrowserRouter>
         <Header />
-        <Main color={"bg-netural"}/>
+        <Main color={"bg-netural"} />
         <About color={"bg-white"} />
-        <Contact color={"bg-netural" } />
+        <Contact color={"bg-netural"} />
       </BrowserRouter>
     </Mainy>
   );
