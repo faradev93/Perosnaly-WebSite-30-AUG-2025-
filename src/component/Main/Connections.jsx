@@ -37,7 +37,7 @@ export default function Connections() {
           href={
             "https://www.linkedin.com/in/faramarz-rezakhanlou-22a857245?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
           }
-          title={"linkedin"}
+          title={"Linkedin"}
         />
       </ul>
     </motion.h2>

@@ -46,7 +46,7 @@ export default function AboutPart1({ bgcolor, titleImage }) {
         <motion.div className="h-fit px-5 font-rubik animate__animated animate__fadeInUp text-black/70 md:border-l-4 md:border-accent/50 ">
           <div className="text-justify select-none leading-6 tracking-tighter">
             <p>
-              Hello, I am Faramarz, a 32-year-old{" "}
+              Hello, I am Faramarz, 
               <span className="underline underline-offset-4 decoration-2 hover:decoration-1 transition-all duration-500">
                 Front-End
               </span>{" "}

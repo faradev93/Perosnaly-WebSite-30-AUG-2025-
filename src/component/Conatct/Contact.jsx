@@ -4,9 +4,9 @@ import AboutPart2 from "../About/AboutPart2";
 
 export default function Contact({ color }) {
   return (
-    <section
+    <section 
       className={`flex-center flex-col gap-4 py-5 ${color}`}
-      id="contact"
+      id="portfolio"
     >
       <motion.div className="flex-center">
         <AboutPart2
@@ -34,7 +34,7 @@ export default function Contact({ color }) {
           logoImage={"./snappfood_logo.png"}
           date={"2020 - 2021"}
           time={"(Full Time)"}
-          JobDescription={"Customer Support"}
+          JobDescription={"Account Manager"}
           abilities={[
             "Strong Communication Skills",
             "Patience and Composure",
