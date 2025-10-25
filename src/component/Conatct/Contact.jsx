@@ -47,7 +47,7 @@ export default function Contact({ color }) {
           logoImage={"./snappfood_logo.png"}
           date={"2021 - 2022"}
           time={"(Full Time)"}
-          JobDescription={"NVR Content Coordinator"}
+          JobDescription={"NVR Content Team Lead"}
           abilities={[
             "Team training and structured planning",
             "Content team management for goals achievement",
